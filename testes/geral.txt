@@ -1,0 +1,39 @@
+/***
+Testes funcionamento api 
+/
+
+Teste erro autenticação API 
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc554
+
+Todos os posts com saida json padrao
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135
+
+Todos os posts com saida xml
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135&saida=xml
+
+Teste saida 
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135&saida=json
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135&saida=xml
+
+Gerando erro saida 
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135&saida=jsonx
+
+Teste contagem noticias ultima hora saida json 
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135&uh=1
+
+Teste contagem noticias ultima hora saida xml
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135&uh=1&saida=xml
+
+Todos os posts  padrao com busca pelo titulo com saida json
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135&busca=Governo
+
+Todos os posts  padrao com busca pelo titulo com saida xml
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135&busca=Governo&saida=xml
+
+
+Teste filtro periodo 
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135&pi=28%20May%202018%2010:48:00&pf=28%20May%202018%2012:26:00
+
+Teste filtro periodo saida xml
+http://localhost/api/?tk=ceac5f9ac9684de043c01216c69dc135&pi=28%20May%202018%2010:48:00&pf=28%20May%202018%2012:26:00&saida=xml
+
